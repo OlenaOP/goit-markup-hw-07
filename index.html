@@ -578,23 +578,34 @@
                 <use href="./images/icon.svg#icon-email"></use>
               </svg>
             </div>
-            <label for="name">Name</label>
+            <label for="comment">Comment</label>
             <div class="modal-input-wrap">
               <textarea
-                name="name"
-                id="name"
+                name="comment"
+                id="comment"
                 placeholder="Text input"
                 class="modal-textarea"
               ></textarea>
             </div>
           </div>
-          
-            <input class="modal-check__input visually-hidden" name="check" type="checkbox" id="check"/>
-            <span class="modal-check__box"></span>
-            <label class="modal-check-label" for="check"></label>
-            I accept the terms and conditions of the
-            <a href="#" class="modal-href">Privacy Policy</a>
-          </label>
+          <div class="modal-check">
+            <input
+              class="modal-check__input visually-hidden"
+              name="check"
+              type="checkbox"
+              id="check"
+              value="true"
+            />
+            <label class="modal-check-label" for="check">
+              <span class="modal-check__box"
+                ><svg class="modal-check-icon" width="10" height="8">
+                  <use href="./images/icon.svg#icon-check"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the&nbsp;
+              <a href="#" class="modal-href">Privacy Policy</a>
+            </label>
+          </div>
         </form>
       </div>
     </div>
