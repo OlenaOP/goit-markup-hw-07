@@ -1,0 +1,141 @@
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1158px;
+  }
+  /*---------- heder------------ */
+  .header-list {
+    display: flex;
+    gap: 40px;
+    margin-left: 76px;
+  }
+  .mobile-menu-btn {
+    display: none;
+  }
+  /*---------- HERO------------ */
+
+  /* .hero > .container {
+    width: 1200px;
+  }*/
+  .hero-section {
+    max-width: 1440px;
+    padding-top: 188px;
+    padding-bottom: 188px;
+    display: flex;
+    align-items: center;
+  }
+  .hero-header {
+    /* Header 1 */
+    font-size: 56px;
+    line-height: calc(60 / 56);
+    width: 496px;
+    margin-bottom: 48px;
+  }
+  /*
+  .hero-wrap {
+    padding: 272px 100px 208px;
+    background-image: var(--bg-gradient), url(../img/hero-bg.jpeg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-wrap {
+      background-image: var(--bg-gradient), url(../img/hero-bg-2x.jpeg);
+    }
+  } */
+
+  /* ------------------Advantages section---------------- */
+  .advantages {
+    padding-top: 120px;
+    padding-bottom: 0px;
+  }
+
+  .advantages-image {
+    padding: 24px 100px;
+    background: var(--light-color);
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 8px;
+  }
+  .advantages-header {
+    /* Header 3 */
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    /* NAVY BLUE */
+    color: inherit;
+  }
+  .advantages-text {
+    font-weight: 400;
+  }
+
+  /* ------------------What are we doing section---------------- */
+
+  .do-list {
+    display: flex;
+    gap: 24px;
+  }
+
+  /* ------------------Our Team section---------------- */
+  .team-list {
+    gap: 24px;
+  }
+
+  /* -----------------FOOTER----------------------- */
+  .footer-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .footer-section-logo {
+    margin-right: 120px;
+  }
+  .footer-section-subscribe {
+    margin-left: 80px;
+  }
+  .footer-subscribe-input {
+    width: 264px;
+  }
+
+  .footer-subscribe-btn {
+    margin-left: 44px;
+  }
+  /*
+  .barbers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .barbers > .container {
+    width: 1200px;
+  }
+
+  .barbers-item {
+    width: calc((100% - 60px) / 3);
+  }
+
+  /*---------- TEST------------ */
+
+  /* .test {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .test-item {
+    width: calc((100% - 150px) / 6);
+  } */
+
+  /*---------- GALLERY------------ */
+
+  /* .gallery {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .gallery-item {
+    width: calc((100% - 90px) / 4);
+  } */
+}
