@@ -536,7 +536,7 @@ body {
 
 .modal {
   width: 392px;
-  height: 586px;
+  max-height: 586px;
   padding: 16px;
   position: absolute;
   top: 50%;
@@ -547,6 +547,14 @@ body {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transition: transform 300ms linear;
+}
+
+@media (max-width: 428px) {
+  .modal {
+    width: calc(100% - 36px);
+    height: calc(100% - 36px);
+    overflow: scroll;
+  }
 }
 
 .backdrop.is-hidden .modal {
@@ -844,8 +852,15 @@ body {
 
 .mobile-soc-list {
   display: flex;
+  justify-content: flex-start;
   gap: 56px;
   margin-top: 8px;
+}
+@media (max-width: 408px) {
+  .mobile-soc-list {
+    justify-content: space-between;
+    gap: calc((100% - 160px) / 3);
+  }
 }
 
 .mobile-soc-link {

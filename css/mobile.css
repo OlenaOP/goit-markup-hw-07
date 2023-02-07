@@ -2,6 +2,11 @@
   .container {
     width: 448px;
   }
+
+  .mobile-soc-list {
+    justify-content: flex-start;
+    gap: 56px;
+  }
   /* .hero-wrap {
     padding: 210px 30px;
   } */

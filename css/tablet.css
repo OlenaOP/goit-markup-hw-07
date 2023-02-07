@@ -129,9 +129,9 @@
   }
 
   /* -----------------FOOTER----------------------- */
-  .footer-section {
+  /* .footer-section {
     padding-left: 108px;
-  }
+  } */
   .footer-section .container {
     justify-content: left;
   }
@@ -161,7 +161,7 @@
   /* -----------------MODAL WINDOW----------------------- */
   .modal {
     width: 408px;
-    height: 576px;
+    max-height: 576px;
     padding: 24px;
   }
 
