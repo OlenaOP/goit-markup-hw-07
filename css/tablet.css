@@ -130,16 +130,18 @@
 
   /* -----------------FOOTER----------------------- */
 
-  @media (max-width: 952px) {
+  /* @media (max-width: 952px) {
     .footer-section > .container {
       margin-left: 92px;
     }
-  }
+  } */
   /* .footer-section .container {
     justify-content: center;
   } */
   .footer-wrap {
     justify-content: left;
+    width: 552px;
+    margin: 0 auto;
   }
   .footer-section-logo {
     margin-right: 24px;

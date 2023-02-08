@@ -132,6 +132,8 @@
   }
   .footer-wrap {
     flex-wrap: nowrap;
+    width: 100%;
+    margin: 0;
   }
 
   .footer-section-logo {
