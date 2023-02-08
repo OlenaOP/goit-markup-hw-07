@@ -129,13 +129,18 @@
   }
 
   /* -----------------FOOTER----------------------- */
-  /* .footer-section {
-    padding-left: 108px;
+
+  @media (max-width: 952px) {
+    .footer-section > .container {
+      margin-left: 92px;
+    }
+  }
+  /* .footer-section .container {
+    justify-content: center;
   } */
-  .footer-section .container {
+  .footer-wrap {
     justify-content: left;
   }
-
   .footer-section-logo {
     margin-right: 24px;
   }
